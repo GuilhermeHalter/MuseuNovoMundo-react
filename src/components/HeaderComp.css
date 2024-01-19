@@ -1,0 +1,22 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: rgb(27, 31, 53);
+}
+.navbar ul {
+    display: flex;
+    gap: 1rem;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: wheat;
+}
+a:hover{
+    transition: 1s;
+    color:gold;
+}

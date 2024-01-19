@@ -1,0 +1,17 @@
+img {
+    width: 200px;
+    height: 200px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+
+.Artes{
+    border: 2px solid black;
+    width: 20%;
+    text-align: center;
+}

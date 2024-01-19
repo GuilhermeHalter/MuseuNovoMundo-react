@@ -11,7 +11,7 @@ const HeaderComp = () => {
         <Link to={"/"}>Home</Link>
       </li>
       <li>
-      <Link to={"/page"}>Page</Link>
+      <Link to={"/artes"}>Artes</Link>
       </li>
     </ul>
   </nav>
