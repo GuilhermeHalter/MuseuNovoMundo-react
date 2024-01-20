@@ -13,6 +13,12 @@ const HeaderComp = () => {
       <li>
       <Link to={"/artes"}>Artes</Link>
       </li>
+      <li>
+      <Link to={"/coins"}>Coins</Link>
+      </li>
+      <li>
+      <Link to={"/esculturas"}>Esculturas</Link>
+      </li>
     </ul>
   </nav>
   )

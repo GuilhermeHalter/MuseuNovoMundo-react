@@ -1,8 +1,8 @@
-import CardComp from "../components/CardComp" 
+import ArtesComp from "../components/ArtesComp" 
 const Arts = () => {
   return (
     <div>
-      <CardComp />
+      <ArtesComp />
     </div>
   )
 }

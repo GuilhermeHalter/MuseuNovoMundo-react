@@ -4,6 +4,10 @@ import App from './App.jsx'
 
 import Home from "./routes/Home.jsx"
 import Arts from "./routes/Arts.jsx"
+import Coins from "./routes/Coins.jsx"
+import Esculturas from './routes/Esculturas.jsx'
+import Item from "./routes/Item.jsx"
+import Search  from './routes/Search.jsx'
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
@@ -20,6 +24,22 @@ const router = createBrowserRouter([
       {
         path:"/artes",
         element: <Arts />
+      },
+      {
+        path:"/coins",
+        element: <Coins />
+      },
+      {
+        path:"/esculturas",
+        element: <Esculturas />
+      },
+      {
+        path:"/item:id",
+        element: <Item />
+      },
+      {
+        path:"/search",
+        element: <Search />
       },
     ],
   },
