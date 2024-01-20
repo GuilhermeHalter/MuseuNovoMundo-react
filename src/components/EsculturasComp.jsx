@@ -49,6 +49,7 @@ const EsculturasComp = () => {
         <p>Carregando...</p>
       ) : (
         <div>
+          <div className="cotainerCard">
           {esculturas.map((escultura) => (
             <div className="Artes" key={escultura.id}>
               <Link to={`/item/${escultura.id}`}>
@@ -56,10 +57,11 @@ const EsculturasComp = () => {
                 src={escultura.primaryimageurl || "src/media/image-not-found.jpg"}
                 alt=""
               />
-              <h2>{escultura.title}</h2>
+              <h2 className="textTitle">{escultura.title}</h2>
               </Link>
             </div>
           ))}
+          </div>
           <div>
             <button onClick={handlePrevPage} disabled={currentPage === 1}>
               Página Anterior

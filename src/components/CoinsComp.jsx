@@ -49,14 +49,16 @@ const CoinsComp = () => {
         <p>Carregando...</p>
       ) : (
         <div>
+          <div className="cotainerCard">
           {coins.map((coin) => (
             <div className="Artes" key={coin.id}>
               <Link to={`/item/${coin.id}`}>
               <img src={coin.primaryimageurl || "src/media/image-not-found.jpg"} alt="" />
-              <h2>{coin.title}</h2>
+              <h2 className="textTitle">{coin.title}</h2>
               </Link>
             </div>
           ))}
+          </div>
           <div>
             <button onClick={handlePrevPage} disabled={currentPage === 1}>
               Página Anterior

@@ -1,0 +1,41 @@
+/* Home.css */
+
+.home-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+.titleHome {
+    margin: 0;
+}
+  
+.featured-exhibits {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+  
+.exhibit {
+    max-width: 300px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+}
+  
+.imgHome {
+    max-width: 100%;
+    height: auto;
+}
+  
+.upcoming-events {
+    margin-bottom: 20px;
+}
+  

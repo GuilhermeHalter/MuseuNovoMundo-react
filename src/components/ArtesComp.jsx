@@ -49,16 +49,19 @@ const ArtesComp = () => {
         <p>Carregando...</p>
       ) : (
         <div>
+          <div className="cotainerCard">
           {artes.map((arte) => (
             
             <div className="Artes" key={arte.id} >
               <Link to={`/item/${arte.id}`}>
               <img src={arte.primaryimageurl || "src/media/image-not-found.jpg"} alt="" />
-              <h2>{arte.title}</h2>
+              <h2 className="textTitle">{arte.title}</h2>
               </Link>
             </div>
           ))}
-          <div>
+          </div>
+         
+          <div className="buttonPage">
             <button onClick={handlePrevPage} disabled={currentPage === 1}>
               Página Anterior
             </button>
