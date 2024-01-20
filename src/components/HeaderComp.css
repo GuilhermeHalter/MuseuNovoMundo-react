@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -53,10 +55,12 @@ ul{
 .Aheader{
     text-decoration: none;
     color: wheat;
+    font-size: 18px;
+    font-family: 'Lora', serif;
      
 }
 .Aheader:hover{
     cursor: pointer;
-    color:gold;
-    transition: 1;
+    color:rgb(243, 165, 63);
+    transition: 1s;
 }

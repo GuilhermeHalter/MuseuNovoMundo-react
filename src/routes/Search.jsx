@@ -34,6 +34,7 @@ const Search = () => {
         <p>Carregando...</p>
       ) : (
         <div>
+          <div className="cotainerCard">
           {itens.map((item) => (
             <div className="Artes" key={item.id}>
               <Link to={`/item/${item.id}`}>
@@ -41,10 +42,11 @@ const Search = () => {
                   src={item.primaryimageurl || "src/media/image-not-found.jpg"}
                   alt=""
                 />
-                <h2>{item.title}</h2>
+                <h2 className="textTitle">{item.title}</h2>
               </Link>
             </div>
           ))}
+          </div>
         </div>
       )}
     </div>

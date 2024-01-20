@@ -2,6 +2,8 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
 import "./AllCardComp.css";
+import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
+
 
 const ApiURL = import.meta.env.VITE_Api_Url;
 const ApiKEY = import.meta.env.VITE_Api_Key;
@@ -62,11 +64,13 @@ const EsculturasComp = () => {
             </div>
           ))}
           </div>
-          <div>
-            <button onClick={handlePrevPage} disabled={currentPage === 1}>
-              Página Anterior
+          <div className="buttonPage">
+            <button onClick={handlePrevPage} disabled={currentPage === 1} className="ButtonNP">
+              <FaArrowLeft /> Página Anterior 
             </button>
-            <button onClick={handleNextPage}>Próxima Página</button>
+            <button onClick={handleNextPage} className="ButtonNP">
+              Próxima Página <FaArrowRight />
+            </button>
           </div>
         </div>
       )}

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -6,6 +8,7 @@ body {
 
 h1{
     text-align: center;
+    font-family: 'Lora', serif;
 }
 
 img{
@@ -32,8 +35,8 @@ img{
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    overflow: hidden; /* Adiciona overflow:hidden para cortar o texto se necessário */
-    white-space: nowrap; /* Impede que o texto seja quebrado em várias linhas */
+    overflow: hidden; 
+    white-space: nowrap; 
     text-overflow: ellipsis;
     transition: transform 0.3s;
 
@@ -50,4 +53,29 @@ a{
    
     
 }
+.buttonPage{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ButtonNP{
+    background-color: rgb(194, 80, 80);
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    white-space: nowrap; 
+    text-overflow: ellipsis;
+    width: 130px;
+    height: 45px;
+}
+
+.ButtonNP:hover{
+    background-color: rgb(168, 50, 50);
+}
+
+
 
