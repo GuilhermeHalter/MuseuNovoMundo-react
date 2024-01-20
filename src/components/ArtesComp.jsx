@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom"
 import axios from "axios";
 import "./AllCardComp.css";
 
@@ -49,9 +50,12 @@ const ArtesComp = () => {
       ) : (
         <div>
           {artes.map((arte) => (
-            <div className="Artes" key={arte.id}>
+            
+            <div className="Artes" key={arte.id} >
+              <Link to={`/item/${arte.id}`}>
               <img src={arte.primaryimageurl || "src/media/image-not-found.jpg"} alt="" />
               <h2>{arte.title}</h2>
+              </Link>
             </div>
           ))}
           <div>
