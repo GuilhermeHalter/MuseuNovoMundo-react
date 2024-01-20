@@ -2,13 +2,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 3rem;
+    padding-left: 30px;
+    padding-right: 30px;
     background-color: rgb(117, 60, 60);
     
 }
 .navbar ul {
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
     font-size: 19px;
 }
 
@@ -21,11 +22,11 @@
     padding: 0;
     width: 100px;
     height: 90px;
-    -webkit-filter: grayscale(50%);
-    -moz-filter:    grayscale(50%);
-    -ms-filter:     grayscale(50%);
-    -o-filter:      grayscale(50%);
-    filter: rgb(248, 9, 9); 
+    -webkit-filter: grayscale(30%);
+    -moz-filter:    grayscale(30%);
+    -ms-filter:     grayscale(30%);
+    -o-filter:      grayscale(30%);
+    filter: rgb(206, 67, 67); 
 }
 
 input{
