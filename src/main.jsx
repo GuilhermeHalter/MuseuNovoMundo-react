@@ -34,7 +34,7 @@ const router = createBrowserRouter([
         element: <Esculturas />
       },
       {
-        path:"/item:id",
+        path:"/item/:id",
         element: <Item />
       },
       {

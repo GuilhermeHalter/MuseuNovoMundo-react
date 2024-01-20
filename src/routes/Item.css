@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+.ImageItem{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    width: 500px;
+    height: auto;    
+}
+
+.containerItem{
+    text-align: center;
+}
+
+.titleItem{
+    padding-top: 20px;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+}
+
+.descricao{
+    margin-left: 20px;
+    text-align: left;
+    font-size: 20px;
+}
+.subtilte{
+    font-size: 25px;
+}

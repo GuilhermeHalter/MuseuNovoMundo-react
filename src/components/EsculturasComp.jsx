@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
+import { Link } from "react-router-dom";
 import "./AllCardComp.css";
 
 const ApiURL = import.meta.env.VITE_Api_Url;
@@ -50,11 +51,13 @@ const EsculturasComp = () => {
         <div>
           {esculturas.map((escultura) => (
             <div className="Artes" key={escultura.id}>
+              <Link to={`/item/${escultura.id}`}>
               <img
                 src={escultura.primaryimageurl || "src/media/image-not-found.jpg"}
                 alt=""
               />
               <h2>{escultura.title}</h2>
+              </Link>
             </div>
           ))}
           <div>

@@ -21,24 +21,25 @@ const HeaderComp = () => {
 
   return (
     <nav className="navbar">
-    <h2>
-      <Link to={"/"}>Titulo</Link>
-    </h2>
+    
+      <Link to={"/"} className="Aheader" >
+        <img src="src\media\Museu-removebg-preview.png" alt="" className="logoApp"/>
+      </Link>
     <ul>
-      <li>
-        <Link to={"/"}>Home</Link>
+      <li >
+        <Link to={"/"} className="Aheader">Home</Link>
       </li>
       <li>
-      <Link to={"/artes"}>Artes</Link>
+      <Link to={"/artes"} className="Aheader">Artes</Link>
       </li>
       <li>
-      <Link to={"/coins"}>Coins</Link>
+      <Link to={"/coins"} className="Aheader">Coins</Link>
       </li>
       <li>
-      <Link to={"/esculturas"}>Esculturas</Link>
+      <Link to={"/esculturas"} className="Aheader">Esculturas</Link>
       </li>
 
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className="formItem">
         <input type="text" 
         placeholder="Busque aqui" 
         onChange={(e) => setSearch(e.target.value)} 
