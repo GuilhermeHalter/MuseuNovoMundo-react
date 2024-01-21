@@ -46,7 +46,7 @@ const ArtesComp = () => {
 
   return (
     <div>
-      <h1>Artes</h1>
+      <h1>Arts</h1>
       {artes.length === 0 ? (
         <p>Carregando...</p>
       ) : (

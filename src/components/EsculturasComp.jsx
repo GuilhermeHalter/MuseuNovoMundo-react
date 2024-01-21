@@ -46,7 +46,7 @@ const EsculturasComp = () => {
 
   return (
     <div>
-      <h1>Esculturas</h1>
+      <h1>Sculptures</h1>
       {esculturas.length === 0 ? (
         <p>Carregando...</p>
       ) : (

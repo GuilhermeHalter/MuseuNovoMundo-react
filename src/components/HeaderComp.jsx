@@ -30,13 +30,13 @@ const HeaderComp = () => {
         <Link to={"/"} className="Aheader">Home</Link>
       </li>
       <li>
-      <Link to={"/artes"} className="Aheader">Artes</Link>
+      <Link to={"/artes"} className="Aheader">Arts</Link>
       </li>
       <li>
       <Link to={"/coins"} className="Aheader">Coins</Link>
       </li>
       <li>
-      <Link to={"/esculturas"} className="Aheader">Esculturas</Link>
+      <Link to={"/esculturas"} className="Aheader">Sculptures</Link>
       </li>
 
       <form onSubmit={handleSubmit} className="formItem">
