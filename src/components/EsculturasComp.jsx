@@ -19,8 +19,6 @@ const EsculturasComp = () => {
         `${ApiURL}object?apikey=${ApiKEY}&page=${currentPage}&size=${itemsPerPage}&classification=Sculpture`
       );
 
-      console.log(response);
-
       if (response.data && response.data.records) {
         const data = response.data.records;
         setEsculturas(data);

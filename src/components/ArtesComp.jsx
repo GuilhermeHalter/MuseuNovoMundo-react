@@ -19,8 +19,6 @@ const ArtesComp = () => {
         `${ApiURL}object?apikey=${ApiKEY}&page=${currentPage}&size=${itemsPerPage}&classification=Prints`
       );
 
-      console.log(response);
-
       if (response.data && response.data.records) {
         const data = response.data.records;
         setArtes(data);

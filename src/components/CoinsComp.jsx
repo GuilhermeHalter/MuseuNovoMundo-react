@@ -18,9 +18,6 @@ const CoinsComp = () => {
       const response = await axios.get(
         `${ApiURL}object?apikey=${ApiKEY}&page=${currentPage}&size=${itemsPerPage}&classification=Coins`
       );
-
-      console.log(response);
-
       if (response.data && response.data.records) {
         const data = response.data.records;
         setCoins(data);

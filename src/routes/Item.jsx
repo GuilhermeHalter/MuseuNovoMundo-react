@@ -15,7 +15,6 @@ const Item = () => {
   const getItem = async (url) => {
     try {
       const response = await axios.get(url);
-      console.log(response);
       const data = response.data;
       setItem(data);
     } catch (error) {

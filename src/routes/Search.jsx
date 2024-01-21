@@ -13,7 +13,6 @@ const Search = () => {
   const getSearchedItens = async (url) => {
     try {
       const response = await axios.get(url);
-      console.log(response);
       const data = response.data.records;
       setItens(data);
     } catch (error) {
