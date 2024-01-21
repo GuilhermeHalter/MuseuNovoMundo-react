@@ -48,6 +48,9 @@ const Item = () => {
             <p>
               Datado em: {item.dated}
             </p>
+            <p>
+              Divisão: {item.division}
+            </p>
           </div>
           
         </div>

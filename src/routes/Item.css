@@ -22,6 +22,11 @@
     text-align: left;
     font-size: 20px;
 }
+.descricao p{
+    margin-bottom: 10px;
+}
+
 .subtilte{
     font-size: 25px;
+    margin-bottom: 15px;
 }
