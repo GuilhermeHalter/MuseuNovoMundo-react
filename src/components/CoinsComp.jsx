@@ -52,7 +52,7 @@ const CoinsComp = () => {
           {coins.map((coin) => (
             <div className="Artes" key={coin.id}>
               <Link to={`/item/${coin.id}`}>
-              <img src={coin.primaryimageurl || "src/media/not_found.png"} alt="" />
+              <img src={coin.primaryimageurl || "public/not_found.png"} alt="" />
               <h2 className="textTitle">{coin.title}</h2>
               </Link>
             </div>

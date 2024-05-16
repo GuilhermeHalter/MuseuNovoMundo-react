@@ -23,7 +23,7 @@ const HeaderComp = () => {
     <nav className="navbar">
     
       <Link to={"/"} className="Aheader" >
-        <img src="./src/media/Museu-removebg-preview.png" alt="" className="logoApp"/>
+        <img src="public/Museu-removebg-preview.png" alt="" className="logoApp"/>
       </Link>
     <ul>
       <li >

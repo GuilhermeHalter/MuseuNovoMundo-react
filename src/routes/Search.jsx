@@ -38,7 +38,7 @@ const Search = () => {
             <div className="Artes" key={item.id}>
               <Link to={`/item/${item.id}`}>
                 <img
-                  src={item.primaryimageurl || "src/media/not_found.png"}
+                  src={item.primaryimageurl || "public/not_found.png"}
                   alt=""
                 />
                 <h2 className="textTitle">{item.title}</h2>
