@@ -54,7 +54,7 @@ const EsculturasComp = () => {
             <div className="Artes" key={escultura.id}>
               <Link to={`/item/${escultura.id}`}>
               <img
-                src={escultura.primaryimageurl || "src/media/image-not-found.jpg"}
+                src={escultura.primaryimageurl || "src/media/not_found.png"}
                 alt=""
               />
               <h2 className="textTitle">{escultura.title}</h2>

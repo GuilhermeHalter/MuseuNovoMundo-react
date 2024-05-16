@@ -54,7 +54,7 @@ const ArtesComp = () => {
             
             <div className="Artes" key={arte.id} >
               <Link to={`/item/${arte.id}`}>
-              <img src={arte.primaryimageurl || "src/media/image-not-found.jpg"} alt="" />
+              <img src={arte.primaryimageurl || "src/media/not_found.png"} alt="" />
               <h2 className="textTitle">{arte.title}</h2>
               </Link>
             </div>
