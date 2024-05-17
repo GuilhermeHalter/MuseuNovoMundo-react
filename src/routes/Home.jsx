@@ -9,12 +9,12 @@ const Home = () => {
       </header>
       <section className="featured-exhibits">
         <div className="exhibit">
-          <img src="public/dinheiro_antigo.png" alt="Exhibit 1" className='imgHome'/>
+          <img src="https://firebasestorage.googleapis.com/v0/b/portifolio-20d01.appspot.com/o/dinheiro_antigo.png?alt=media&token=aace8ae1-2526-4f6c-b44d-6986ce372962" alt="Exhibit 1" className='imgHome'/>
           <h2>Ancient Artifacts</h2>
           <p>Step back in time and explore the fascinating world of ancient civilizations. Our collection of artifacts includes ancient tools, pottery, and sculptures, providing a glimpse into the daily lives of people who lived thousands of years ago. Marvel at the craftsmanship and learn about the cultural significance of each piece.</p>
         </div>
         <div className="exhibit">
-          <img src="public/flower_museu.png" alt="Exhibit 2" className='imgHome' />
+          <img src="https://firebasestorage.googleapis.com/v0/b/portifolio-20d01.appspot.com/o/flower_museu.png?alt=media&token=aae2975b-1891-4b60-b71d-e6e32de89c5d" alt="Exhibit 2" className='imgHome' />
           <h2>Natural History</h2>
           <p>Embark on a journey through the natural world and discover the wonders of biodiversity. From fossils of prehistoric creatures to rare specimens of plants and insects, our Natural History exhibit showcases the beauty and complexity of life on Earth. Learn about the interconnectedness of ecosystems and the importance of preserving our planet's biodiversity.</p>
         </div>

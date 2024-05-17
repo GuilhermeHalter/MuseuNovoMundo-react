@@ -23,7 +23,7 @@ const HeaderComp = () => {
     <nav className="navbar">
     
       <Link to={"/"} className="Aheader" >
-        <img src="public/Museu-removebg-preview.png" alt="" className="logoApp"/>
+        <img src="https://firebasestorage.googleapis.com/v0/b/portifolio-20d01.appspot.com/o/Museu-removebg-preview.png?alt=media&token=dec4e340-312a-4f7f-b7db-148a4d675b1b" alt="" className="logoApp"/>
       </Link>
     <ul>
       <li >

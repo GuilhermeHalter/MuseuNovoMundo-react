@@ -38,7 +38,7 @@ const Search = () => {
             <div className="Artes" key={item.id}>
               <Link to={`/item/${item.id}`}>
                 <img
-                  src={item.primaryimageurl || "public/not_found.png"}
+                  src={item.primaryimageurl || "https://firebasestorage.googleapis.com/v0/b/portifolio-20d01.appspot.com/o/not_found.png?alt=media&token=e6ade276-a274-4c9f-856d-19ddb8856195"}
                   alt=""
                 />
                 <h2 className="textTitle">{item.title}</h2>

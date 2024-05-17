@@ -52,7 +52,7 @@ const CoinsComp = () => {
           {coins.map((coin) => (
             <div className="Artes" key={coin.id}>
               <Link to={`/item/${coin.id}`}>
-              <img src={coin.primaryimageurl || "public/not_found.png"} alt="" />
+              <img src={coin.primaryimageurl || "https://firebasestorage.googleapis.com/v0/b/portifolio-20d01.appspot.com/o/not_found.png?alt=media&token=e6ade276-a274-4c9f-856d-19ddb8856195"} alt="" />
               <h2 className="textTitle">{coin.title}</h2>
               </Link>
             </div>

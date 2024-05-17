@@ -54,7 +54,7 @@ const ArtesComp = () => {
             
             <div className="Artes" key={arte.id} >
               <Link to={`/item/${arte.id}`}>
-              <img src={arte.primaryimageurl || "public/not_found.png"} alt="" />
+              <img src={arte.primaryimageurl || "https://firebasestorage.googleapis.com/v0/b/portifolio-20d01.appspot.com/o/not_found.png?alt=media&token=e6ade276-a274-4c9f-856d-19ddb8856195"} alt="" />
               <h2 className="textTitle">{arte.title}</h2>
               </Link>
             </div>
